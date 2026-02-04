@@ -1,0 +1,28 @@
+/* Typography */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+/* Sith Theme Colours */
+:root {
+  --bs-primary: #8b0000;
+  --bs-dark: #0b0b0b;
+}
+
+.bg-dark {
+  background-color: #0b0b0b !important;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #8b0000;
+}
+
+.card-title {
+  color: #8b0000;
+}

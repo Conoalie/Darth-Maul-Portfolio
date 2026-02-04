@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D.Maul - Portfolio</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- local CSS file -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -17,53 +27,55 @@
 
     </header>
 
-    <main>
-        <div>
-            <section>
-                <h1>
-                    Portfolio
-                </h1>
-                <p>
+    <main class="py-5">
+        <div class="container">
+
+            <section class="mb-4">
+                <h1>Portfolio</h1>
+                <p class="text-muted">
                     Key operations and achievements throughout Darth Maul’s career.
                 </p>
             </section>
 
-
             <section>
-                <div>
-                    <article>
-                        <div>
-                            <h2>
-                                Battle on Tatooine
-                            </h2>
+                <div class="row g-4">
 
-                            <p>
-                                First public confrontation with the Jedi Order.
-                            </p>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/maul1.jpg" class="card-img-top" alt="Battle on Tatooine">
+                            <div class="card-body">
+                                <h2 class="card-title h5">
+                                    Battle on Tatooine
+                                </h2>
+                                <p class="card-text">
+                                    First public confrontation with the Jedi Order.
+                                </p>
+                            </div>
                         </div>
                     </article>
 
-                    <article>
-                        <div>
-                            <h2>
-                                Ruler of Mandalore
-                            </h2>
-
-                            <p>
-                                Established control using the Darksaber and Shadow Collective.
-                            </p>
+                    <article class="col-md-6 col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/maul2.jpg" class="card-img-top" alt="Ruler of Mandalore">
+                            <div class="card-body">
+                                <h2 class="card-title h5">
+                                    Ruler of Mandalore
+                                </h2>
+                                <p class="card-text">
+                                    Established control using the Darksaber and Shadow Collective.
+                                </p>
+                            </div>
                         </div>
                     </article>
+
                 </div>
             </section>
 
         </div>
     </main>
 
-    <footer>
-        <p>
-            &copy; 2026 Sith Archives
-        </p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 Sith Archives</p>
     </footer>
 
 </body>
