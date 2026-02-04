@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .navbar-brand {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 0.05em;
 }
@@ -16,6 +16,10 @@ h1, h2, h3, h4 {
 
 .bg-dark {
   background-color: #0b0b0b !important;
+}
+
+.navbar-dark .nav-link.active {
+  color: #ff0000;
 }
 
 /* Cards */
