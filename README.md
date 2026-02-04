@@ -12,7 +12,7 @@ The content theme is secondary; the primary focus is on **technical implementati
 ## Live Site
 
 🔗 **GitHub Pages Deployment:**  
-https://conoalie.github.io/darth-maul-portfolio/
+https://conoalie.github.io/Darth-Maul-Portfolio/
 
 ---
 
